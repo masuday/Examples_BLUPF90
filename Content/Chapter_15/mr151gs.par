@@ -1,0 +1,27 @@
+# For GIBBSF90+
+DATAFILE
+mr151.dat
+NUMBER_OF_TRAITS
+1
+NUMBER_OF_EFFECTS
+3
+OBSERVATION(S)
+4
+WEIGHT(S)
+
+EFFECTS:    # l=H+C+s+e
+1 2 cross   # Herd
+2 2 cross   # Sex
+3 4 cross   # sire
+RANDOM_RESIDUAL VALUES  # residual variance = 1
+1.0
+RANDOM_GROUP
+3
+RANDOM_TYPE             # sire model
+add_sire
+FILE
+mr151.ped
+(CO)VARIANCES           # sire variance = 1/19
+0.0526
+OPTION cat 3
+OPTION fixed_var mean

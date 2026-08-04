@@ -1,0 +1,25 @@
+# Alternative parameter file: a direct transcription from the textbook.
+DATAFILE
+mr42a.dat
+NUMBER_OF_TRAITS
+1
+NUMBER_OF_EFFECTS
+2
+OBSERVATION(S)
+5
+WEIGHT(S)
+
+EFFECTS:
+2 2 cross
+3 4 cross               # 3rd column = sire effect; 4 sires
+RANDOM_RESIDUAL VALUES  # residual variance
+55.0
+RANDOM_GROUP
+2
+RANDOM_TYPE             # type changed
+add_sire
+FILE
+mr42a.ped
+(CO)VARIANCES           # sire variance
+5.0
+OPTION solv_method FSPAK

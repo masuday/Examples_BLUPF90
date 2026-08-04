@@ -1,0 +1,29 @@
+# An alternative parameter file that uses the variance ratio, (alpha),
+# instead of explicit variance components. Here, (alpha = 2.0), and
+# its inverse, (1/alpha = 0.5), is specified under (CO)VARIANCES.
+DATAFILE
+mr41.dat
+NUMBER_OF_TRAITS
+1
+NUMBER_OF_EFFECTS
+2
+OBSERVATION(S)
+5
+WEIGHT(S)
+
+EFFECTS:
+2 2 cross
+1 8 cross
+RANDOM_RESIDUAL VALUES
+1.0
+RANDOM_GROUP
+2
+RANDOM_TYPE
+add_animal
+FILE
+mr41.ped
+(CO)VARIANCES
+0.5
+OPTION solv_method FSPAK
+OPTION sol se
+OPTION store_accuracy 2

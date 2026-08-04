@@ -1,0 +1,30 @@
+# For GIBBSF90+
+DATAFILE
+mr152.dat
+NUMBER_OF_TRAITS
+2
+NUMBER_OF_EFFECTS
+4
+OBSERVATION(S)
+6 5
+WEIGHT(S)
+
+EFFECTS:      # l=H+M+E+s+e
+1 1 2 cross   # origin
+3 3 2 cross   # season
+4 4 2 cross   # sex
+2 2 6 cross   # sire
+RANDOM_RESIDUAL VALUES
+1.0000 2.0527
+2.0527 20.000
+RANDOM_GROUP
+4
+RANDOM_TYPE
+add_sire
+FILE
+mr152.ped
+(CO)VARIANCES
+0.0300 0.0302
+0.0302 0.7178
+OPTION cat 2 0
+OPTION fixed_var mean

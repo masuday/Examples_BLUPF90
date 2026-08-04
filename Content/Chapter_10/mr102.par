@@ -47,5 +47,6 @@ OPTION solv_method FSPAK
 OPTION store_pev_pec 7 8 9
 OPTION include_effects 7 8 9
 OPTION minmaxrr 4 310
-OPTION cumulative 4 305
+OPTION cumulative 6 310
 OPTION include_pev
+OPTION acctype rel

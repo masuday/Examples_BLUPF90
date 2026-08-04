@@ -24,5 +24,5 @@ mr121.ped
 OPTION solv_method FSPAK
 OPTION SNP_file mr121.gen mr121.xrf
 OPTION no_quality_control
-#OPTION no_tunedG_first
-OPTION thrStopCorAG 0.10
+OPTION no_tunedG_first
+#OPTION thrStopCorAG 0.10

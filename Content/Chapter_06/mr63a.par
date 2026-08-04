@@ -1,0 +1,28 @@
+# Alternative specification of trait-specific fixed effects
+DATAFILE
+mr63.dat
+NUMBER_OF_TRAITS
+2
+NUMBER_OF_EFFECTS
+3
+OBSERVATION(S)
+6 7
+WEIGHT(S)
+
+EFFECTS:
+4 0 2 cross
+0 5 2 cross
+1 1 8 cross
+RANDOM_RESIDUAL VALUES
+65.0 27.0
+27.0 70.0
+RANDOM_GROUP
+3
+RANDOM_TYPE
+add_animal
+FILE
+mr63.ped
+(CO)VARIANCES
+35.0 28.0
+28.0 30.0
+OPTION solv_method FSPAK

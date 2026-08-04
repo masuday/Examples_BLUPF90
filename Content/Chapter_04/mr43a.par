@@ -1,0 +1,27 @@
+# Alternative parameter file: a direct transcription from the textbook.
+DATAFILE
+mr43a.dat
+NUMBER_OF_TRAITS
+1
+NUMBER_OF_EFFECTS
+4
+OBSERVATION(S)
+5
+WEIGHT(S)
+10
+EFFECTS:
+2 2 cross
+7 0 cov 3
+8 0 cov 4
+9 6 cov 6
+RANDOM_RESIDUAL VALUES
+40.0
+RANDOM_GROUP
+4
+RANDOM_TYPE
+add_animal
+FILE
+mr43a.ped
+(CO)VARIANCES
+20.0
+OPTION solv_method FSPAK

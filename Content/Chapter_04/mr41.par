@@ -22,4 +22,5 @@ mr41.ped
 (CO)VARIANCES
 20.0
 OPTION solv_method FSPAK
+OPTION sol se
 OPTION store_accuracy 2

@@ -1,0 +1,25 @@
+# No constraints on the pedigree file (keeping 9 in the pedigree)
+DATAFILE
+mr44.dat
+NUMBER_OF_TRAITS
+1
+NUMBER_OF_EFFECTS
+2
+OBSERVATION(S)
+5
+WEIGHT(S)
+
+EFFECTS:
+2 2 cross
+1 10 cross       # change the number of animals to 10 including groups
+RANDOM_RESIDUAL VALUES
+40.0
+RANDOM_GROUP
+2
+RANDOM_TYPE      # use upg = unknown parent groups
+add_an_upg
+FILE
+mr44a.ped
+(CO)VARIANCES
+20.0
+OPTION solv_method FSPAK
